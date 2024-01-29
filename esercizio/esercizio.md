@@ -8,15 +8,15 @@
 | prezzo | int | -- |
 | anno_macchina_fabbricazione | DATE | -- |
 | qualita_macchina | tinyint(5) | default(5) |
-| neopatentati | VARCHAR(15) | notnull |
+| neopatentati | BOOLEAN | notnull |
 | tipo_carburante | VARCHAR(15) | -- |
 | tipo_cambio | VARCHAR(15) | -- |
-| telecamere_per_parcheggio | VARCHAR(15) | notnull |
-| display_digitale_per_autista | VARCHAR(15) | notnull |
+| telecamere_per_parcheggio | BOOLEAN | notnull |
+| display_digitale_per_autista | BOOLEAN | notnull |
 | discount | TINYINT | default(0) |
-| acquisto_a_rate | VARCHAR(15) | notnull |
+| acquisto_a_rate | BOOLEAN | notnull |
 | assistenza_per_cliente | VARCHAR(15) | -- |
-| consegna_a_domicilio | VARCHAR(15) | notnull |
-| test_drive | VARCHAR(15) | notnull |
+| consegna_a_domicilio | BOOLEAN | notnull |
+| test_drive | BOOLEAN | notnull |
 | tagliando | VARCHAR(15) | -- |
 
