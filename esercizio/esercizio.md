@@ -17,4 +17,6 @@
 | acquisto_a_rate | VARCHAR(15) | notnull |
 | assistenza_per_cliente | VARCHAR(15) | -- |
 | consegna_a_domicilio | VARCHAR(15) | notnull |
+| test_drive | VARCHAR(15) | notnull |
+| tagliando | VARCHAR(15) | -- |
 
